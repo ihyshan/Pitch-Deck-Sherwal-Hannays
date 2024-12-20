@@ -3,7 +3,7 @@ document.querySelector('form').addEventListener('submit', function (event) {
     const emailInput = document.getElementById('email');
     const messageDiv = document.querySelector('.message');
     if (emailInput.value) {
-        messageDiv.textContent = `Thank you! Your email address ${emailInput.value} has been added to our mailing list!`;
+        messageDiv.textContent = `Thank you for subscribing to RideShare! We'll keep you updated.`;
     } else {
         messageDiv.textContent = 'Please enter a valid email address.';
     }
