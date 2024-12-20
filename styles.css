@@ -199,3 +199,15 @@ footer {
     padding: 1.5rem 0;
     font-size: 16px;
 }
+
+/* Center header and logo */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
